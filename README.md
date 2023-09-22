@@ -29,8 +29,10 @@ sync; echo 2 > /proc/sys/vm/drop_caches
 ```sh
 sync; echo 3 > /proc/sys/vm/drop_caches
 ```
-
-
+اسکریپت اجرای کلی:
+```sh
+bash <(curl -fsSL https://raw.githubusercontent.com/69learn/freehost/main/freehost.sh)
+```
 اینترنت یا برای همه یا برای هیچکس!
 
 به امید آزادی
