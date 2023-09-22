@@ -1,8 +1,7 @@
 #!/bin/bash
 
 echo "By --> 69 learn * Github.com/69learn * "
-echo "Your IP is: ($myip) "
-echo ""
+
 echo -e "\e[32m
 
  ██████   █████      ██      ███████  █████  ██████  ███    ██ 
@@ -23,5 +22,7 @@ sync; echo 1 > /proc/sys/vm/drop_caches
 sync; echo 2 > /proc/sys/vm/drop_caches
 
 sync; echo 3 > /proc/sys/vm/drop_caches
-
+echo "Memory cache cleared successfully"
 0 exit
+
+
