@@ -33,6 +33,24 @@ sync; echo 3 > /proc/sys/vm/drop_caches
 ```sh
 bash <(curl -fsSL https://raw.githubusercontent.com/69learn/freehost/main/freehost.sh)
 ```
+اجرای خودکار دستورات در سرور:
+#step1
+```sh
+nano freeram.sh
+```
+#step2
+```sh
+chmod +x freeram.sh
+```
+#step3
+```sh
+crontab -e
+```
+#step4
+```sh
+0 * * * * /root/freeram.sh
+```
+
 اینترنت یا برای همه یا برای هیچکس!
 
 به امید آزادی
