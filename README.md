@@ -34,6 +34,7 @@ sync; echo 3 > /proc/sys/vm/drop_caches
 bash <(curl -fsSL https://raw.githubusercontent.com/69learn/freehost/main/freehost.sh)
 ```
 اجرای خودکار دستورات در سرور:
+
 #step1
 ```sh
 nano freeram.sh
